@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+ 
+<!-- Indentificação do Aluno -->
+  
+  <h1>Tabela RGB ( Processamento de Imagens )</h1>
+<h2> Aluno: Glauber Souza Monteiro / Rgm: 24505595 </h2>
+
+<!-- Criação da Tabela -->
+
+<table border="1px">
+  
+<tr>
+<td style="color: red;"> Vermelho </td>
+<td id="c1"> 255, 0, 0 </td>
+<td id="c2"> 250, 0, 0 </td>
+<td id="c3"> 200, 0, 0 </td>
+<td id="c4"> 150, 0, 0 </td>
+<td id="c5"> 100, 0, 0 </td>
+<td id="c6"> 50, 0, 0 </td>
+<td id="c7"> 0, 0, 0 </td>
+
+  </tr>
+
+  <tr >
+<td style="color: forestgreen;"> Verde </td>
+    <td id="v1"> 0, 255, 0 </td>
+    <td id="v2"> 0, 250, 0 </td>
+    <td id="v3"> 0, 200, 0 </td>
+    <td id="v4"> 0, 150, 0 </td>
+    <td id="v5"> 0, 100, 0 </td>
+    <td id="v6"> 0, 50, 0 </td>
+    <td id="v7"> 0, 0, 0 </td>
+    
+  </tr>
+
+  <tr >
+<td style="color: blue;" > Azul </td>
+    <td id="a1"> 0, 0, 255 </td>
+    <td id="a2"> 0, 0, 250 </td>
+    <td id="a3"> 0, 0, 200 </td>
+    <td id="a4"> 0, 0, 150 </td>
+    <td id="a5"> 0, 0, 100 </td>
+    <td id="a6"> 0, 0, 50 </td>
+    <td id="a7"> 0, 0, 0 </td>
+        
+  </tr>
+
+  <tr >
+<td style="color: cyan;" > Ciano </td>
+    <td id="s1"> 0, 255, 255 </td>
+    <td id="s2"> 0, 250, 250 </td>
+    <td id="s3"> 0, 200, 200 </td>
+    <td id="s4"> 0, 150, 150 </td>
+    <td id="s5"> 0, 100, 100 </td>
+    <td id="s6"> 0, 50, 50 </td>
+    <td id="s7"> 0, 0, 0 </td>
+        
+  </tr>
+
+  <tr >
+<td style="color: darkmagenta;" > Magenta </td>
+    <td id="m1"> 255, 0, 255 </td>
+    <td id="m2"> 250, 0, 250 </td>
+    <td id="m3"> 200, 0, 200 </td>
+    <td id="m4"> 150, 0, 150 </td>
+    <td id="m5"> 100, 0, 100 </td>
+    <td id="m6"> 50, 0, 50 </td>
+    <td id="m7"> 0, 0, 0 </td>
+        
+  </tr>
+
+  <tr >
+<td style="color: yellow;" > Amarelo </td>
+    <td style="color: black;" id="am1"> 255, 255, 0 </td>
+    <td style="color: black;" id="am2"> 250, 250, 0 </td>
+    <td id="am3"> 200, 200, 0 </td>
+    <td id="am4"> 150, 150, 0 </td>
+    <td id="am5"> 100, 100, 0 </td>
+    <td id="am6"> 50, 50, 0 </td>
+    <td id="am7"> 0, 0, 0 </td>
+        
+  </tr>
+
+  <tr >
+    <td style="color:gray"> Cinza </td>
+    <td style="color:black" id="cz1"> 255, 255, 255 </td>
+    <td style="color: black;" id="cz2"> 250, 250, 250 </td>
+    <td id="cz3"> 200, 200, 200 </td>
+    <td id="cz4"> 150, 150, 150 </td>
+    <td id="cz5"> 100, 100, 100 </td>
+    <td id="cz6"> 50, 50, 50 </td>
+    <td id="cz7"> 0, 0, 0 </td>
+        
+  </tr>
+
+  </table>
+
+<!-- Estilização da Tabela em Css -->
+
+<style>
+  
+body{
+
+color: white;
+font-family: monospace;
+background-color: rgb(0, 0, 50);
+margin: 20px;
+}
+
+
+tr, td {
+width: 150px;
+height: 80px;
+text-align: center;
+background-color: black;
+}
+
+tr #c1{
+background-color: rgb(255, 0, 0);
+}
+
+tr #c2{
+background-color: rgb(250, 0, 0);
+}
+
+tr #c3{
+background-color: rgb(200, 0, 0);
+}
+
+tr #c4{
+background-color: rgb(150, 0, 0);
+}
+
+tr #c5{
+background-color: rgb(100, 0, 0);
+}
+
+tr #c6{
+background-color: rgb(50, 0, 0);
+}
+
+tr #c7{
+background-color: rgb(0, 0, 0);
+}
+
+tr #v1{
+background-color: rgb(0, 255, 0);
+}
+
+tr #v2{
+background-color: rgb(0, 250, 0);
+}
+
+tr #v3{
+background-color: rgb(0, 200, 0);
+}
+
+tr #v4{
+background-color: rgb(0, 150, 0);
+}
+
+tr #v5{
+background-color: rgb(0, 100, 0);
+}
+
+tr #v6{
+background-color: rgb(0, 50, 0);
+}
+
+tr #v7{
+background-color: rgb(0, 0, 0);
+}
+
+tr #a1{
+background-color: rgb(0, 0, 255);
+}
+
+tr #a2{
+background-color: rgb(0, 0, 250);
+}
+
+tr #a3{
+background-color: rgb(0, 0, 200);
+}
+
+tr #a4{
+background-color: rgb(0, 0, 150);
+}
+
+tr #a5{
+background-color: rgb(0, 0, 100);
+}
+
+tr #a6{
+background-color: rgb(0, 0, 50);
+}
+
+tr #a7{
+background-color: rgb(0, 0, 0);
+}
+
+tr #s1{
+background-color: rgb(0, 255, 255);
+}
+
+tr #s2{
+background-color: rgb(0, 250, 250);
+}
+
+tr #s3{
+background-color: rgb(0, 200, 200);
+}
+
+tr #s4{
+background-color: rgb(0, 150, 150);
+}
+
+tr #s5{
+background-color: rgb(0, 100, 100);
+}
+
+tr #s6{
+background-color: rgb(0, 50, 50);
+}
+
+tr #s7{
+background-color: rgb(0, 0, 0);
+}
+
+tr #m1{
+background-color: rgb(255, 0, 255);
+}
+
+tr #m2{
+background-color: rgb(250, 0, 250);
+}
+
+tr #m3{
+background-color: rgb(200, 0, 200);
+}
+
+tr #m4{
+background-color: rgb(150, 0, 150);
+}
+
+tr #m5{
+background-color: rgb(100, 0, 100);
+}
+
+tr #m6{
+background-color: rgb(50, 0, 50);
+}
+
+tr #m7{
+background-color: rgb(0, 0, 0);
+}
+
+tr #am1{
+background-color: rgb(255, 255, 0);
+}
+
+tr #am2{
+background-color: rgb(250, 250, 0);
+}
+
+tr #am3{
+background-color: rgb(200, 200, 0);
+}
+
+tr #am4{
+background-color: rgb(150, 150, 0);
+}
+
+tr #am5{
+background-color: rgb(100, 100, 0);
+}
+
+tr #am6{
+background-color: rgb(50, 50, 0);
+}
+
+tr #am7{
+background-color: rgb(0, 0, 0);
+}
+
+tr #cz1{
+background-color: rgb(255, 255, 255);
+}
+
+tr #cz2{
+background-color: rgb(250, 250, 250);
+}
+
+tr #cz3{
+background-color: rgb(200, 200, 200);
+}
+
+tr #cz4{
+background-color: rgb(150, 150, 150);
+}
+
+tr #cz5{
+background-color: rgb(100, 100, 100);
+}
+
+tr #cz6{
+background-color: rgb(50, 50, 50);
+}
+
+tr #cz7{
+background-color: rgb(0, 0, 0);
+}
+
+</style>
+
+</body>
+</html>
